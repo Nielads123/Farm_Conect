@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Farm Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/image 3.png" type="image/x-icon">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card {
+            background-color: blanchedalmond;
+        }
+        .card-title {
+            font-size: 20px;
+            color: black;
+            text-align: center;
+        }
+        .card-category {
+            color: rgba(19, 154, 67, 1);
+            font-weight: 500;
+            text-align: center;
+        }
+    </style>
+<!-- navbar -->
+<nav style="font-family: Montserrat;" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="Farm-1">Farm</span> <span class="Farm-2">Connect</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#home-tab-pane">Fresh Vegetable</a></li>
+                        <li><a class="dropdown-item" href="#profile-tab-pane">Fruits</a></li>
+                        <li><a href="#contact-tab" class="dropdown-item">Leafy Green</a></li>
+                        <li><a href="#main-tab-pane" class="dropdown-item">Nuts</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#disabled-tab-pane">Roots</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <i style="position: absolute; margin-left:10px;margin-top:10px;"><ion-icon name="search-outline"></ion-icon></i>
+               <span> <input style="border-radius: 40px; border: solid 2px rgb(189, 233, 189) " class="form-control me-2" type="search" placeholder= "Enter Your Request" aria-label="Search"></span>
+                <ion-icon style="color: black; font-size: 25px; margin-top: 10px; margin-left: 10px;" name="cart-outline"></ion-icon>
+                <ion-icon style="color: black; font-size: 25px; margin-left: 10px; margin-top: 10px;" name="person-circle-outline"></ion-icon>
+            </form>
+        </div>
+    </div>
+</nav>
+<!-- navbar -->
+<!-- main-card -->
+<div class="container mt-4">
+    <div class="row g-3 align-items-center">
+        <div class="col-md-8 order-md-1 order-2">
+            <div class="card-body">
+                <h5 class="card-title text-center text-md-start" style="color: black; font-size: 50px;">Daily</h5>
+                <p class="card-text text-center text-md-start" style="font-size: 50px; font-weight: bold; color: black;">Farm-Fresh Produce</p>
+                <p class="card-text text-center text-md-start"><small style="color: black; font-weight: bold;" class="text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident facere id itaque harum commodi deleniti ut unde nesciunt ratione! Odio, quos odit! Voluptate inventore ipsum aperiam quos, corporis numquam necessitatibus.</small></p>
+
+                <section class="newsletter mt-4">
+                    <form class="row g-2 align-items-center d-none d-sm-flex">
+                        <div  class="col-12 col-sm-8 mx-auto mx-md-0">
+                            <input type="email" class="form-control" id="email-box" placeholder="What are you looking for?" required>
+                        </div>
+                        <div class="col-12 col-sm-4 mx-auto mx-md-0">
+                            <button type="submit" class="btn btn-success w-100">Search</button>
+                        </div>
+                    </form>
+                </section>
+                
+                
+            </div>
+        </div>
+
+        <div class="col-md-4 order-md-2 order-1">
+            <img src="img/image 3.png" class="img-fluid rounded-start" alt="...">
+        </div>
+    </div>
+</div>
+<!-- main-card -->
+
+<!-- small-cards -->
+<div class="container mt-5">
+    <div style="color: black; font-size: 30px; font-family: Montserrat; padding-bottom: 10px; font-weight:600;">Shop Our Top Categories</div>
+    <div class="row">
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 4.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;"  class="card-title">Vegetables</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 5.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;"  class="card-title">Herbs</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 6.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;"  class="card-title">Fruits</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 7.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;"  class="card-title">Livestocks</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 8.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;" class="card-title">Poultry</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-2 mb-3">
+            <div class="card text-bg-dark">
+                <img src="img/Rectangle 9.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 style="color: white;"  class="card-title">Dairy <br>Products</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- small-cards -->
+
+<!-- How it works -->
+<div class="container mt-5">
+    <div class="row align-items-center text-center">
+        <div class="col-lg-2 col-md-2 col-sm-12 mb-3 mb-lg-0">
+            <img src="img/image 5.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+            <div style="color: black; font-size:30px; font-weight:bold;">How it works</div>
+            <p style="color: rgba(16, 139, 52, 1); font-size:30px;">Facilitating the delivery of fresh farm goods to your doorstep</p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12 mb-3 mb-lg-0">
+            <img src="img/image 6.png" class="img-fluid" alt="">
+        </div>
+    </div>
+</div>
+<!-- How it works -->
+
+<!-- becoming a member -->
+<div style="margin-top: 100px;" class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 mb-3">
+            <div class=" text-center">
+                <img src="img/image 8.png" style="width:100px; margin: 0 auto;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 style="color: black; font-weight: bold; font-size:25px; margin-top:-50px;" class="card-title">Becoming a member</h5>
+                    <p style="color: black; font-size: 18px; padding-top:10px;" class="card-text">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+            <div class=" text-center">
+                <img src="img/image 7.png" style="width:100px; margin: 0 auto;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 style="color: black; font-weight: bold; font-size:25px; margin-top:-50px;" class="card-title">place your order</h5>
+                    <p style="color: black; font-size: 18px; padding-top:10px;" class="card-text">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+            <div class=" text-center">
+                <img src="img/image 9.png" style="width:100px; margin: 0 auto;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 style="color: black; font-weight: bold; font-size:25px; margin-top:-50px;" class="card-title">Delivery time</h5>
+                    <p style="color: black; font-size: 18px; padding-top:10px;" class="card-text">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- becoming a member -->
+
+<!-- slider -->
+<div class="container">
+    <p class="text-center" font-family:Montserrat;  style="color: black; text-decoration: underline; margin-top: 100px; font-size: 30px; font-weight: 600;">Daily Farm Fresh Organic Item</p>
+    <ul id="ddd" class="nav nav justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link underline-on-hover active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <img src="img/icon-park-outline_vegetables.png" alt="">Fresh Vegetables
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link underline-on-hover" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <img src="img/healthicons_fruits-outline.png" alt="">Fruits
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link underline-on-hover" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+                <img src="img/Vector.png" alt="">Leafy Green
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link underline-on-hover" id="main-tab" data-bs-toggle="tab" data-bs-target="#main-tab-pane" type="button" role="tab" aria-controls="main-tab-pane" aria-selected="false">
+                <img src="img/1.png" alt="">Nuts
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link underline-on-hover" id="tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">
+                <img src="img/game-icons_plant-roots.png" alt="">Roots
+            </button>
+        </li>
+    </ul>
+    
+    
+    <div class="tab-content" id="myTabContent">
+
+          <!-- fresh Vegetable -->
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="card" style="height: 250px; position: relative;">
+                        <img src="img/image 13.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Tomatoes" style="width: 100%; height: auto; max-width: 100px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -10px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Tomatoes</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 14.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Corns" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Corns</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 15.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Onions" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Onions</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 16.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Potatoes" style="width: 100%; height: auto; max-width: 75px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Potatoes</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 17.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Broccoli</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 18.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Tomatoes</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 19.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Cucumber</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 20.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Bell Pepper</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 21.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 80px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Cabbage</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/image 22.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 105px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Vegetables</p>
+                            <h5 class="card-title">Fresh Organic Carrot</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fresh Vegetable -->
+
+
+        <!-- fresh fruits -->
+        
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="card" style="height: 250px; position: relative;">
+                        <img src="img/orange-white-white-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Tomatoes" style="width: 100%; height: auto; max-width: 90px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Orange</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/1908.i308.003.p.m005.c20.realistic_fruits_set-05-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Corns" style="width: 100%; height: auto; max-width: 100px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">  Apple</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/18965820-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Onions" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title"> Banana</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/delicious-mango-still-life-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Potatoes" style="width: 100%; height: auto; max-width: 130px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Mango</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/Guava_-6-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 85px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Guava</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/green-striped-ripe-watermelon-with-slice-cross-section-isolated-white-background-with-copy-space-text-images-special-kind-berry-sweet-pink-flesh-with-black-seeds-side-view-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 120px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Watermelon</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/Grape_-3-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 80px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Grapes</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/olives-isolated-transparent-background_191095-40246-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 80px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Olives</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/blackberries-milk-splash-floating-isolated-transparent-background_191095-10063-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 80px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Blackberry</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/avocado-fruit-with-leafs-isolated-photo-avocado-whole-half-slice-leaves-white-background_659151-1087-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 120px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Fruits</p>
+                            <h5 class="card-title">Avocado</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- fresh fruits -->
+
+
+          <!-- fresh leafy green -->
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="card" style="height: 250px;">
+                        <img src="img/raw-nature-background-health-white_1203-5950-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Tomatoes" style="width: 100%; height: auto; max-width: 140px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr  class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title"> Spinach</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/romaine-isolated-transparent-background_191095-31476-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Corns" style="width: 100%; height: auto; max-width: 90px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">  Lettuce</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/flat-lay-beets-with-beet-juice-glass_23-2148352380-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Onions" style="width: 100%; height: auto; max-width: 60px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title"> Beet Green</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/blanched-florence-fennel-isolated-white-background-ar-11-style-raw-job-id-b8beeeea5a7f4e1c82cf4bb_786688-39284-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Potatoes" style="width: 100%; height: auto; max-width: 90px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Endive</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/board-full-different-greenery-marble-background_114579-67065-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 135px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Watercress</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/top-view-fresh-red-onions-bowl-chopped-red-cabbage-vegetable-salad-wooden-background-with-copy-place_140725-138672-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 130px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Radicchio</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/photo-vivid-dandelion-greens-white-background_994764-55713-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 85px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Dandelion Greens</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/salad-with-arugula-tomatoes-pine-nuts_2829-9803-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 130px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Arugula</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/bunch-spinach-with-leaves-black-background_975681-75849-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 110px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leeafy Green</p>
+                            <h5 class="card-title">Collard Greens</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/kale-isolated-transparent-background_191095-32300-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 80px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Leafy Green</p>
+                            <h5 class="card-title">Kale</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- leafy green -->
+
+
+
+        <!-- Nuts -->
+        <div class="tab-pane fade" id="main-tab-pane" role="tabpanel" aria-labelledby="main-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="card" style="height: 250px;">
+                        <img src="img/whole-walnuts-shell-food-metal-basket-walnut-kernels-top-view-concrete_114579-4888-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Tomatoes" style="width: 100%; height: auto; max-width: 70px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr  class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title"> Walnuts</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/macadamia-nuts-with-leaf-isolated-white-background_1264610-4499-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Corns" style="width: 100%; height: auto; max-width: 95px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">  Macadamia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/natural-fresh-chestnuts-isolated-white-background_787273-55889-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Onions" style="width: 100%; height: auto; max-width:100px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">  Chestnuts</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/close-up-mixture-tasty-pistachios_23-2148405870-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Potatoes" style="width: 100%; height: auto; max-width: 150px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category"> Nuts</p>
+                            <h5 class="card-title">Pistachios</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/fresh-peanuts-white_144627-16021-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 67px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Brazil Nuts</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/bowl-organic-hazelnut-kernels-cutting-board-with-shelled-hazelnuts_114579-84968-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 135px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Hazelnuts</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/organic-almond-nuts-wooden-spoon-flat-lay_23-2148675515-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 60px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Almondo </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/dw-removebg-preview (1).png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 60px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Pecans</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/raw-cashews-nuts-bowl-dark-background_1150-45357-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 130px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Cashew Nuts </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/top-view-pine-seeds-with-wooden-spoon_23-2148519146-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 130px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Nuts</p>
+                            <h5 class="card-title">Pine Nuts</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nuts -->
+
+
+
+        <!-- roots -->
+
+        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4">
+                <div class="col">
+                    <div class="card" style="height: 250px;">
+                        <img src="img/top-view-arrangement-carrots_23-2148643525-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Tomatoes" style="width: 100%; height: auto; max-width: 150px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr  class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title"> Carrots</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/pink-petal-lotus-waterlily-green-color-leaves-rising-water_41657-104-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Corns" style="width: 100%; height: auto; max-width: 125px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">  Locus Roots</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/close-up-white-radishes-white-table_176474-1503-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Onions" style="width: 100%; height: auto; max-width:125px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">  Daikon Radish</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/fresh-celery-root-with-leaf-isolated-white-background_120872-418-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Potatoes" style="width: 100%; height: auto; max-width: 125px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category"> Root</p>
+                            <h5 class="card-title">Celeriac Roots</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/top-view-arrangement-parsley-roots_23-2148758840-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 82px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">Horseradish Root</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/closeup-shot-turmerics-with-wooden-shovel_181624-28460-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 140px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">Tumeric Root</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/harvest-time-vibrant-sweet-potatoes-lush-field_1143378-4097-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 165px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">Sweet Potato </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/white-asparagus_1203-6893-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 140px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">Parsnips Root</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/bittersweet-ginger_144627-12044-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 140px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title"> Ginger </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="background-color: #D9D9D9; height: 250px;">
+                        <img src="img/arrangement-nutritious-cassava-roots_23-2149091018-removebg-preview.png" class="card-img-top mx-auto d-block" alt="Fresh Organic Broccoli" style="width: 100%; height: auto; max-width: 60px; margin-top: 20px;">
+                        <span class="order-now">View All Item</span>
+                        <hr class="separator">
+                        <div style="margin-top: -5px; margin-left: 2px;" class="card-body">
+                            <p class="card-category">Root</p>
+                            <h5 class="card-title">Yam</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- roots -->
+
+
+    </div>
+</div>
+
+
+
+<!-- argricultural products -->
+<div class="container mt-5">
+    <div id="cont" class="row g-3 align-items-center">
+        <div class="col-md-5 order-md-1 order-2">
+            <div class="cars-1">
+                <h5 class="cars text-center text-md-start">
+                    Our agricultural products <br> are trusted by a <br> diverse <br> range of customers
+                </h5>
+                <p>
+                    Experience the incredible farming we offer <br> exclusively for you.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-7 order-md-2 order-1">
+            <div class="dan">Join Now</div>
+            <img src="img/Rectangle 10.png" class="img-fluid-1 rounded-start" alt="Agricultural Products">
+        </div>
+    </div>
+</div>
+
+
+<!-- argricultural products -->
+
+<!-- partner with us -->
+<div class="container">
+    <div class="row align-items-center mt-5">
+        <div class="col-md-5 text-center text-md-start">
+            <div class="dan-1">Partner With Us</div>
+        </div>
+
+        <div class="col-md-7">
+            <hr class="dan-2">
+            <div class="row text-center text-md-start">
+                <div style="font-weight: 500; font-size: 20px;" class="col-md-4 mb-3 mb-md-0">
+                    <span style="color: #13662C;">10+</span> Years <br> Experience
+                </div>
+                <div style="font-weight: 500; font-size: 20px;" class="col-md-4 mb-3 mb-md-0">
+                    <span style="color: #13662C;">100+</span> Young <br> Riders
+                </div>
+                <div style="font-weight: 500; font-size: 20px;" class="col-md-4">
+                    <span style="color: #13662C;">5k</span> Regular <br> Customers
+                </div>
+            </div>
+            <hr class="dan-2">
+        </div>
+    </div>
+</div>
+
+<!-- partner with us -->
+
+<!-- our succcess stories -->
+    <div class="dav-1">
+        <div class="dav-2">Our success Stories</div>
+
+    
+            
+        <div class="container">
+            <div class="dav-7">
+
+            <div class="row">
+                    <!-- row1 -->
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card-21">
+                    <div class="card-body-22">
+                       <img class="dav-4" src="img/Ellipse 1.png" alt="" width="50px;">
+                       <div class="dav-3">Ayomide <br>Tech sis Ayo</div>
+                       <img class="dav-5" src="img/Group.png" alt="" width="30px">
+                       <p class="dav-6">Whoever created Farm Connect <br>Gob Bless You!!!</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card-21">
+                    <div class="card-body-22">
+                        <img class="dav-4" src="img/Ellipse 1 (1).png" alt="" width="50px;">
+                       <div class="dav-3">Daniel <br>Dan Dan</div>
+                       <img class="dav-5" src="img/Group.png" alt="" width="30px">
+                       <p class="dav-6">Farm Connect has save me a lot stress. I don't have to go to the market for fresh produce anymore</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card-21">
+                      <div class="card-body-22">
+                          <img class="dav-4" src="img/Ellipse 1 (2).png" alt="" width="50px;">
+                         <div class="dav-3">Miracle <br>Mi Mi</div>
+                         <img class="dav-5" src="img/Group.png" alt="" width="30px">
+                         <p class="dav-6">Farm Connect delivery is 1000/10</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- row 1 -->
+
+                
+              </div>
+
+              <div class="dav-8">
+                <div class="row">
+                    <!-- row 2 -->
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card-21">
+                    <div class="card-body-22">
+                       <img class="dav-4" src="img/Ellipse 1 (4).png" alt="" width="50px;">
+                       <div class="dav-3">Praise <br>Tech Bro P</div>
+                       <img class="dav-5" src="img/Twitter logo.png" alt="" width="30px">
+                       <p class="dav-6">I'm so in love with Farm Connect <br>they are the best</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card-21">
+                    <div class="card-body-22">
+                        <img class="dav-4" src="img/Ellipse 1 (5).png" alt="" width="50px;">
+                       <div class="dav-3">David Prosper <br>Tech Wiz</div>
+                       <img class="dav-5" src="img/Facebook logo.png" alt="" width="30px">
+                       <p class="dav-6">Farm Connect Ux>>>>>>>>>>></p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card-21">
+                      <div class="card-body-22">
+                          <img class="dav-4" src="img/Ellipse 1 (6).png" alt="" width="50px;">
+                         <div class="dav-3">Temi <br>@tems tems</div>
+                         <img class="dav-5" src="img/Twitter logo.png" alt="" width="30px">
+                         <p class="dav-6">Farm Connect has a top tier <br> Customer service. I'm in love>>></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- row 2 -->
+
+                
+              </div>
+
+              </div>
+
+        </div>
+    </div>
+
+    </div>
+<!-- our succcess stories -->
+
+
+<!-- footer -->
+<div id="card-51"  class="card text-bg-dark">
+    <img src="img/Rectangle 13.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+
+        
+        <div class="farm-55">
+        <div class="row">
+
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                    <div class="card-53">
+                      <div class="card-body-52">
+                          <div class="farm-52">Farm <span class="farm-53">Connect</span></div>
+                          <div class="farm-54">"Fresh from our field to your doorstep. We deliver farm-fresh produce straight to your home. Taste nature bounty today.!"</div>
+                          <div class="farm-57">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                          <ion-icon   name="logo-facebook"></ion-icon>
+                          <ion-icon   name="logo-twitter"></ion-icon>
+                          </div>
+                        </div>
+                       
+                    </div>
+                </div>
+      
+             <div class="col-sm-3 mb-3 mb-sm-0">
+                    <div class="card-53">
+                      <div class="card-body-56">
+                       <div>
+                            <ul>
+                                <li>Menu</li>
+                                <li>Home</li>
+                                <li>Products</li>
+                                <li>Service</li>
+                                <li>About Us</li>
+                                <li>Private Policy</li>
+                            </ul>
+                       </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                    <div class="card-53">
+                      <div class="card-body-56">
+                       <div>
+                            <ul>
+                                <li>FAQ</li>
+                                <li>How do i place an Order</li>
+                                <li>Manage Delivery</li>
+                                <li>Payment Method</li>
+                                <li>Technical support</li>
+                               
+                            </ul>
+                       </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 mb-3 mb-sm-0">
+                    <div class="card-53">
+                      <div class="card-body-56">
+                       <div>
+                            <ul>
+                                <li>Support</li>
+                                <li>Online Chat</li>
+                                <li>Call Center</li>
+                                <li>Contact Information</li>
+                                
+                            </ul>
+                       </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+  <!-- footer -->
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
